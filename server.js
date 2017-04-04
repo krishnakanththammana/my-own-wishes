@@ -27,7 +27,7 @@ app.get('/wish/:username', function(req, res) {
           '.custom-wishes {text-align: center;position: absolute; bottom: 20px; color: white;}'+
           '.main {position: absolute;color: white;font-size: 2em;text-align: center;width: 90%; margin: 0 auto;}'+
           'body {display: flex; flex-direction: column; justify-content: center; align-items: center; background-color: rgba(0,0,0,0.4)}'+
-          'html {background-image:url("https://media.giphy.com/media/IjmMzurYulKEw/giphy.gif");background-size: cover;background-repeat: no-repeat;}'+
+          'html {min-height: 650px; height: 100%;background-image:url("https://media.giphy.com/media/IjmMzurYulKEw/giphy.gif");background-size: cover;background-repeat: no-repeat;}'+
         '</style>'+
       '</head>'+
       '<body>'+
@@ -56,6 +56,6 @@ app.get('/wish/:username', function(req, res) {
   res.send(htmlText);
 });
 
-var port=Number(process.env.PORT || 5000);
+var port = Number(process.env.port || 5000);
 app.listen(port);
 console.log('wishes app running on port: '+port);
