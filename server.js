@@ -31,7 +31,7 @@ app.get('/wish/:username', function(req, res) {
           '.custom-wishes {text-align: center; color: white;}'+
           '.main {color: white;font-size: 2em;text-align: center;width: 90%; margin: 0 auto;}'+
           'body {padding: 20px;display: -webkit-box; display: -ms-flexbox;display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; background-color: rgba(0,0,0,0.4);}'+
-          'html {min-height: 650px; height: 100%;background-image:url("https://media.giphy.com/media/IjmMzurYulKEw/giphy.gif");background-size: cover;background-repeat: no-repeat;}'+
+          'html { height: 100%;background-image:url("https://media.giphy.com/media/IjmMzurYulKEw/giphy.gif");background-size: cover;background-repeat: no-repeat;}'+
         '</style>'+
       '</head>'+
       '<body>'+
