@@ -1,0 +1,7 @@
+{
+  "name": "my-own-wishes",
+  "description": "my-own-wishes",
+  "repository": "https://github.com/krishnakanththammana/my-own-wishes",
+  "keywords": ["node", "express", "static"],
+  "image": "heroku/nodejs"
+}
